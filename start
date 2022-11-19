@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# before/after gui
+## run once
+mpd --no-daemon &
+eval "$(ssh-agent -s)" && ssh-add $SSH_ADD_FILE & # adding ssh keys to ssh-agent
+
+## many times
+xset r rate 250 50 &
+
+# after gui
+## run once
+sxhkd &
+urxvtd &
+polybar & # statusbar &
+picom &
+nitrogen --restore &
+
+## many times
+
+
+
+
+
+

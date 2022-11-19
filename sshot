@@ -1,0 +1,4 @@
+#!/bin/bash
+
+maim -s -o "/home/$USER/screenshots/$(date '+%Y_%m_%d__%H_%M_%S').png"
+
