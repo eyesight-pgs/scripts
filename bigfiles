@@ -1,0 +1,4 @@
+#!/bin/sh
+
+du -ahc | sort -rh | head -n 20
+
