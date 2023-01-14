@@ -1,0 +1,3 @@
+#!/bin/sh
+xdg-open https://www.nerdfonts.com/cheat-sheet
+
