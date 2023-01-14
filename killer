@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ps -u $USER -o pid=,%mem=,%cpu=,comm= | fzf -m | sed -e 's/^[[:space:]]*//g' | cut -d' ' -f1 | xargs -r kill -9
+
