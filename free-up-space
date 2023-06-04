@@ -1,0 +1,13 @@
+#!/bin/bash
+
+rm ~/.config/mpd/log
+rm ~/.config/yarn/global/yarn-error.log
+
+# remove yay cache
+yay -Sc
+
+
+## node_modules
+# rm -rf ~/.config/yarn/global/node_modules
+
+
