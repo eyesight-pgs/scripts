@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+echo "Enter expression and press enter"
+for i in {1..1000}
+do
+  read exp
+  echo "console.log($exp)" | node -i
+done
+
+
+
+
+
+
