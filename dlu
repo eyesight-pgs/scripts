@@ -1,4 +1,6 @@
 #!/bin/sh
 
 surf https://reddit.com/r/danklinuxusers
+# firefox https://reddit.com/r/danklinuxusers
+# chromium https://reddit.com/r/danklinuxusers
 
