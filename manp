@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [[ -z "$1" ]]
+then
+  echo "===================================="
+  echo "Manual as PDF"
+  echo "===================================="
+  echo "Usage:"
+  echo "    manp <command_name>"
+  echo "Example:"
+  echo "    manp tee"
+exit
+fi
+
+man -Tpdf $1 | zathura - &
+
