@@ -12,6 +12,7 @@ src="${src};"
 src="${src} console.log(jsons(obj))"
 node -e "$src" | xclip -selection clipboard -r 
 echo "Output is in your clipboard" 
+notify-send -t 1 "Output is in your clipboard"
 
 
 
