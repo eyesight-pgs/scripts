@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ping 9.9.9.9
+ping 1.1.1.1
 
