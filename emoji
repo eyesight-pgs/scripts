@@ -1,0 +1,10 @@
+#!/bin/bash
+
+selected="$(cat ~/scripts/emoji.txt | dmenu -i -l 30 | cut -d ' ' -f1)"
+echo "$selected" | xclip -selection clipboard -r
+
+
+
+
+
+
