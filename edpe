@@ -1,0 +1,4 @@
+#!/bin/env sh
+
+sed -i 's/monitor=eDP-1,disable/# monitor=eDP-1,disable/' ~/.config/hypr/hyprland.conf
+
